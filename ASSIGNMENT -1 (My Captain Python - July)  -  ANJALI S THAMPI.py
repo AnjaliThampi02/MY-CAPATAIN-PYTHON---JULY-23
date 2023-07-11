@@ -26,5 +26,5 @@ print(area)
 
 file_name=input("Enter the filename: ")
 file_extension=file_name.split(".")
-print("Extension of file is: " + repr(file_extension[-1]))
+print("Extension of file is: " + (file_extension[-1]))
 
